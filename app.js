@@ -58,6 +58,6 @@ app.post("/post",async function(req,res){
 })
 
 
-app.listen(process.env.PORT || PORT,function(){
+app.listen(PORT,function(){
     console.log("Server started at port 3000...")
 })
