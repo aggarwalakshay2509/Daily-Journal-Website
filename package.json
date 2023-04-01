@@ -1,0 +1,20 @@
+{
+  "name": "blogwebsite",
+  "version": "1.0.0",
+  "description": "This is a blog website built using EJS templates",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines":{
+    "node":"v18.15.0"
+  },
+  "author": "Akshay Aggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
