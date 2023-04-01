@@ -3,7 +3,7 @@ const bodyParser=require('body-parser')
 const mongoose=require('mongoose')
 const PORT=3000
 
-mongoose.connect("mongodb+srv://AkshayAggarwal:akshay0101@cluster0.ek6s8or.mongodb.net/postsDB")
+mongoose.connect("<enter mongoDB atlas URI>")
 
 const homeContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nemo, vero qui quam hic dignissimos alias et sint sapiente quos nesciunt ad cum blanditiis eveniet, unde aut voluptates molestias quaerat similique repellendus ut est soluta? Reprehenderit repudiandae ipsum doloribus cupiditate veniam ducimus cum excepturi. Voluptas impedit asperiores autem sapiente minima, doloremque."
 const aboutContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque sapiente maxime atque repellendus. Alias, inventore voluptates vero voluptatum voluptatem temporibus ducimus aliquam impedit neque labore, eveniet nisi atque dignissimos, voluptas dolor quod minus earum corrupti. Autem velit officia ab necessitatibus molestiae aut! Ex rem perferendis ullam doloribus, ipsum aliquid."
